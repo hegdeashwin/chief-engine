@@ -1,0 +1,12 @@
+{
+  "name": "chief-engine",
+  "version": "0.0.1",
+  "description": "A graphical tool for pm2-api",
+  "author": "hegdeashwin <ashwin.hegde3@gmail.com>",
+  "scripts": {
+    "lint": "eslint --ext .js src"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  }
+}
