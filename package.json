@@ -4,12 +4,32 @@
   "description": "A graphical tool for pm2-api",
   "author": "hegdeashwin <ashwin.hegde3@gmail.com>",
   "scripts": {
+    "bundle": "webpack -d --watch",
+    "build": "webpack -p",
     "lint": "eslint --ext .js src"
   },
   "engines": {
     "node": ">=6.0.0"
   },
   "dependencies": {
-    "eslint": "^3.7.1"
+    "bootstrap": "^3.3.7",
+    "eslint": "^3.7.1",
+    "font-awesome": "^4.6.3",
+    "vue": "^2.0.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-core": "^6.17.0",
+    "babel-jest": "^16.0.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.16.0",
+    "css-loader": "^0.25.0",
+    "file-loader": "^0.9.0",
+    "html-webpack-plugin": "^2.22.0",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.2"
   }
 }
