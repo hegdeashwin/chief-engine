@@ -2,7 +2,7 @@
   <div>
     <HeaderArea></HeaderArea>
     <div class="container">
-      <router-view></router-view>      
+      <router-view></router-view>
       <FooterArea></FooterArea>
     </div>
   </div>
