@@ -7,16 +7,17 @@ import Settings from './views/Settings/Settings';
 
 Vue.use(VueRouter);
 
-const router = new VueRouter({
-  mode: 'history',
-  base: __dirname,
-  routes: [
-    { path: '/', component: Dashboard },
-    { path: '/settings', component: Settings }
-  ]
+const Router = new VueRouter({
+  routes: [{
+    path: '/',
+    component: Dashboard
+  }, {
+    path: '/settings',
+    component: Settings
+  }]
 });
 
 /* eslint-disable no-new */
 new Vue(Vue.util.extend({
-  router
+  router: Router
 }, MasterLayout)).$mount('#app');
