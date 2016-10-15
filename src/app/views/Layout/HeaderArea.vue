@@ -1,3 +1,13 @@
 <template>
-  <h2>Header</h2>
+  <Navbar></Navbar>
 </template>
+
+<script>
+import Navbar from '../../components/navbar';
+
+export default {
+  components: {
+    Navbar
+  }
+}
+</script>
