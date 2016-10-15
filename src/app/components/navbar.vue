@@ -35,7 +35,7 @@
             <ul class="dropdown-menu">
               <li><a href="#">Welcome</a></li>
               <li role="separator" class="divider"></li>
-              <li><a href="//github.com/Frontcore/frontcore/wiki" target="_blank">Documentation</a></li>
+              <li><a href="//github.com/hegdeashwin/chief-engine/wiki" target="_blank">Documentation</a></li>
             </ul>
           </li>
         </ul>
