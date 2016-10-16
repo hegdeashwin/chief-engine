@@ -4,9 +4,12 @@
   "description": "A graphical tool for pm2-api",
   "author": "hegdeashwin <ashwin.hegde3@gmail.com>",
   "scripts": {
+    "start": "babel-node ./server/server.js",
+    "nodemon": "nodemon ./server/server.js --exec babel-node --presets es2015",
     "bundle": "webpack -d --watch",
     "build": "webpack -p",
-    "lint": "eslint --ext .js src"
+    "lint": "eslint --ext .js src",
+    "nspcheck": "nsp check"
   },
   "engines": {
     "node": ">=6.0.0"
@@ -15,6 +18,8 @@
     "bootstrap": "^3.3.7",
     "eslint": "^3.7.1",
     "font-awesome": "^4.6.3",
+    "hapi": "^15.1.1",
+    "inert": "^4.0.2",
     "vue": "^2.0.3",
     "vue-resource": "^1.0.3",
     "vue-router": "^2.0.1"
